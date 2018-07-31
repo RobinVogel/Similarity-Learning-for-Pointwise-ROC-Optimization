@@ -12,14 +12,14 @@ Three experimens are described in the paper:
 * Experiment 2: **Fast Rates** - Shows that the fast rates can be illustrated with simples distributions, when we satisfy the assumptions of a Mammen-Tsybakov type assumption.
 * Experiment 3: **Scalability by sampling** - Shows that for the [MMC algorithm](https://dl.acm.org/citation.cfm?id=2968618.2968683), which is a metric learning objective which formulation is very close to our problem, subsampling very agressively the negative pairs does not hinder learning.
 
-## How to use
+## Libraries
 
-
-
-## Authors
-
-* **Robin Vogel**.
+* Experiment 1: numpy, matplotlib.
+* Experiment 2:
+* Experiment 3: numpy, matplotlib, scikit-learn, autograd, configargparse.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+### Robin Vogel, 2018.
