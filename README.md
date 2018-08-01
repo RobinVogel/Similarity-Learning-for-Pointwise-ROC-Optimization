@@ -22,4 +22,4 @@ Three experimens are described in the paper:
 
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
-### [Robin Vogel}(https://perso.telecom-paristech.fr/rvogel/), 2018.
+### [Robin Vogel](https://perso.telecom-paristech.fr/rvogel/), 2018.
