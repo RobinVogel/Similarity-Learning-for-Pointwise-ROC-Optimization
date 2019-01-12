@@ -8,9 +8,11 @@ for cur_n in ${ns[@]}
 do
     for ratio in ${ratios[@]}
     do
-        python $script_fold/MNIST_MMC_exp.py --ratio $ratio --n_choosen $cur_n --type_exp "incomplete" > $logs_fold/logs/exp_inc_B"$ratio"_n"$cur_n".log &
+        python $script_fold/MNIST_MMC_exp.py --ratio $ratio --n_choosen $cur_n \
+            --type_exp "incomplete" > $logs_fold/logs/exp_inc_B"$ratio"_n"$cur_n".log &
     done
-    python $script_fold/MNIST_MMC_exp.py --n_choosen $cur_n --type_exp "complete" > $logs_fold/logs/exp_comp_n"$cur_n".log &
+    python $script_fold/MNIST_MMC_exp.py --n_choosen $cur_n \
+        --type_exp "complete" > $logs_fold/logs/exp_comp_n"$cur_n".log &
 done
 wait
 
